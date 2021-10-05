@@ -1,4 +1,7 @@
-# store
+# E commerce application
+### I used free UI desgin from https://www.uistore.design/
+### Thanks For Afsar Hossen. https://dribbble.com/imshuvo97?ref=uistore.design 
+
 
 A new Flutter project.
 
