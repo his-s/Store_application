@@ -1,19 +1,6 @@
 # E commerce application
 ### I used free UI desgin from https://www.uistore.design/
-### Thanks For Afsar Hossen. https://dribbble.com/imshuvo97?ref=uistore.design 
-
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Thanks afsar hossen for this awesome desgin . https://dribbble.com/imshuvo97?ref=uistore.design 
+![Cover](https://user-images.githubusercontent.com/70527079/136048024-36d6d027-4f43-4fde-a210-cd4e3e148cc0.jpg)
+#### I use flutter to develop this application as cross plateform from google to make my application ready for android and ios or desktop application.
+#### Flutter is easy powerfull and fast. 
