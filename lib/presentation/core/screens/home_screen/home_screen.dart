@@ -1,4 +1,8 @@
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:store/presentation/componant/logo.dart';
+import 'package:store/presentation/core/screens/home_screen/componants/location_banner.dart';
+import 'package:store/presentation/core/widgets/search.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -7,9 +11,25 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: const EdgeInsets.all(12),
-        child: Column(
-          children: [],
+        padding: const EdgeInsets.all(20),
+        child: SafeArea(
+          child: Column(
+            children: const [
+              SizedBox(
+                height: 20,
+              ),
+              LogoWidget(
+                size: 18.0,
+              ),
+              LocationBannerWidget(
+                locationName: "Dhaka, Banassre",
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              SearchWidget(),
+            ],
+          ),
         ),
       ),
     );
