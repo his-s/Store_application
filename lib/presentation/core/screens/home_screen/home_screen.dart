@@ -1,7 +1,7 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:store/presentation/componant/logo.dart';
 import 'package:store/presentation/core/screens/home_screen/componants/location_banner.dart';
+import 'package:store/presentation/core/screens/home_screen/componants/slider.dart';
 import 'package:store/presentation/core/widgets/search.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -28,6 +28,10 @@ class HomeScreen extends StatelessWidget {
                 height: 20,
               ),
               SearchWidget(),
+              SizedBox(
+                height: 20,
+              ),
+              SliderWidget(),
             ],
           ),
         ),
