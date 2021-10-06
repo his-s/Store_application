@@ -187,5 +187,18 @@ class DummyData {
       price: 4.99,
       rate: 5,
     ),
+    Product(
+      id: "000006",
+      name: "Red Apple",
+      detailes:
+          "Apples are nutritious. Apples may be good for weight loss. apples may be good for your heart. As part of a healtful and varied diet.",
+      nutrition: "100gr",
+      brand: "",
+      category: "Beverages",
+      imageUrl: "assets/images/products/2.png",
+      ammount: "345ml",
+      price: 4.99,
+      rate: 5,
+    ),
   ];
 }

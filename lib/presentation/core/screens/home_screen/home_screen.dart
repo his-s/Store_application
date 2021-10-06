@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:store/presentation/componant/logo.dart';
+import 'package:store/presentation/core/screens/home_screen/componants/home_scroll_view.dart';
 import 'package:store/presentation/core/screens/home_screen/componants/location_banner.dart';
-import 'package:store/presentation/core/screens/home_screen/componants/slider.dart';
 import 'package:store/presentation/core/widgets/search.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -31,7 +31,9 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
-              SliderWidget(),
+              Expanded(
+                child: HomeScrollView(),
+              ),
             ],
           ),
         ),
